@@ -23,7 +23,7 @@ set -ouex pipefail
 
 # systemctl enable podman.socket
 
-dnf5 install niri
+dnf5 install -y niri
 
-dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
-dnf5 install noctalia-shell
+dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+dnf5 install -y noctalia-shell
