@@ -25,5 +25,4 @@ set -ouex pipefail
 
 dnf5 install -y niri
 
-dnf install -y --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 dnf5 install -y noctalia-shell
