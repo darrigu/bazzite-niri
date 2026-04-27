@@ -25,4 +25,6 @@ set -ouex pipefail
 
 dnf5 install -y niri
 
+dnf5 config-manager setopt terra.enabled=1
 dnf5 install -y noctalia-shell
+dnf5 config-manager setopt terra.enabled=0
