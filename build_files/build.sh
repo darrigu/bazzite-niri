@@ -24,7 +24,7 @@ set -ouex pipefail
 # systemctl enable podman.socket
 
 dnf5 install -y niri foot
-dnf5 install -y adw-gtk3-theme
+dnf5 install -y qt6ct adw-gtk3-theme
 
 dnf5 config-manager setopt terra.enabled=1
 dnf5 install -y noctalia-shell
